@@ -1,0 +1,23 @@
+{
+  "name": "projeto-web-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tailwind-watch": "tailwindcss -i ./assets/css/tailwind.css -o ./assets/css/tailwindOutput.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PedroGSantos/projeto-web-2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PedroGSantos/projeto-web-2/issues"
+  },
+  "homepage": "https://github.com/PedroGSantos/projeto-web-2#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.2.4"
+  }
+}
