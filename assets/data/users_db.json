@@ -1,0 +1,50 @@
+{
+    "users": [
+        {
+            "email": "aquila@gmail.com",
+            "password": "teste123",
+            "watchedMovies": [
+                {
+                    "title": "Shrek 2",
+                    "id": "tt0298148"
+                }
+            ]
+        },
+        {
+            "email": "italo@gmail.com",
+            "password": "teste123",
+            "watchedMovies": [
+                {
+                    "title": "Shrek",
+                    "id": "tt0126029"
+                },
+                {
+                    "title": "Iron Man",
+                    "id": "tt0371746"
+                },
+                {
+                    "title": "Power Rangers",
+                    "id": "tt3717490"
+                },
+                {
+                    "title": "High School Musical",
+                    "id": "tt0475293"
+                },
+                {
+                    "title": "Titans",
+                    "id": "tt1043813"
+                }
+            ]
+        },
+        {
+            "email": "pedro@gmail.com",
+            "password": "teste123",
+            "watchedMovies": [
+                {
+                    "title": "Shrek",
+                    "id": "tt0126029"
+                }
+            ]
+        }
+    ]
+}
