@@ -67,9 +67,9 @@ function displayWatchedMovies(email) {
 					.then((movieData) => {
 						var posterLink = movieData.Poster;
 						divWatchedMovies.innerHTML += `
-                    <div class="w-1/4 p-4">
+                    <div class="md:w-1/4 md:p-4 sm:w-1/2 sm:p-2 w-full">
                         <div class="image-wrapper">
-                            <img class="w-full " src="${posterLink}">
+                            <img class="w-full" src="${posterLink}">
                             <div class="gradient-overlay"></div>
                             <button class="image-button"><i class="fa-solid fa-lg fa-circle-xmark"></i></button>
                         </div>
