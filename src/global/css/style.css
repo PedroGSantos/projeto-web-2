@@ -9,6 +9,10 @@ body {
     background-repeat: no-repeat;
 }
 
+#optionsMenu {
+    display: none;
+}
+
 .bebas-neue {
     font-family: 'Bebas Neue', cursive;
 }
