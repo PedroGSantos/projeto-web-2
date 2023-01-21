@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Bebas+Neue&display=swap');
+
+#logo {
+    font-size: 8em;
+    color: #ff0707;
+    font-family: 'Bebas Neue', cursive;
+    margin-left: 8%;
+    margin-top: 2%;
+}
+
+#loginArea {
+    background-color: #505050;
+    border-radius: 10px;
+    margin: auto;
+    width: 30%;
+    height: 90%;
+    padding-bottom: 1%;
+}
+
+#descriptionLogon {
+    margin-left: 14.8%;
+    margin-right: 10%;
+    padding-top: 2%;
+    font-size: 2.5em;
+    font-weight: 500;
+    width: 0;
+    height: 0;
+    font-weight: 700;
+}
+
+#emailInput {
+    color: black;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 80px;
+    width: 70%;
+    display: block;
+    height: 60px;
+    padding-left: 10px;
+    font-size: 28px;
+}
+
+#passwordInput {
+    color: black;
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 6%;
+    width: 70%;
+    display: block;
+    height: 60px;
+    font-weight: 500;
+    text-decoration-color: black;
+    padding-left: 10px;
+    font-size: 28px;
+}
+
+#submitButton{
+    border-radius: 5px;
+    background-color: red;
+    margin: auto;
+    margin-top: 6%;
+    display: block;
+    width: 70%;
+    height: 10%;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2em;
+    padding-bottom: 10px;
+    align-items: center;
+    align-content: center;
+    padding-top: 1.5%;
+    margin-bottom: 10px;
+}
+
+#submitButton:hover{
+    background-color: #810606;
+    color: #c8c8c8;
+}
+
+@media only screen and (max-width: 800px) {
+    #loginArea {
+        width: 60%;
+    }
+    
+    #emailInput {
+        height: 40px;
+        font-size: 18px;
+    }
+
+    #passwordInput {
+        height: 40px;
+        font-size: 18px;
+    }
+
+    #submitButton{
+        border-radius: 5px;
+        background-color: red;
+        margin: auto;
+        margin-top: 6%;
+        display: block;
+        width: 70%;
+        height: 10%;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 1.8em;
+        padding-bottom: 1%;
+        align-items: center;
+        align-content: center;
+        padding-top: 1%;
+        margin-bottom: 10px;
+    }
+}
+
+@media only screen and (max-width: 1300px) and (min-width: 800px){
+    #loginArea {
+        width: 60%;
+    }
+    
+    #emailInput {
+        height: 48px;
+        font-size: 20px;
+    }
+
+    #passwordInput {
+        height: 48px;
+        font-size: 20px;
+    }
+
+    #submitButton{
+        border-radius: 5px;
+        background-color: red;
+        margin: auto;
+        margin-top: 6%;
+        display: block;
+        width: 70%;
+        height: 10%;
+        font-family: 'Bebas Neue', cursive;
+        font-size: 1.8em;
+        padding-bottom: 1%;
+        align-items: center;
+        align-content: center;
+        padding-top: 1%;
+        margin-bottom: 10px;
+    }
+}
