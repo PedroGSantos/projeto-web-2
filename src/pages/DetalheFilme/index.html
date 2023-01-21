@@ -1,12 +1,83 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <div>test</div>
-</body>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./styles.css">
+        <link rel="stylesheet" href="../../global/css/style.css">
+        <link href="../../global/css/tailwindOutput.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+        <script src="index.js"></script>
+        <script src="../../global/script/index.js"></script>
+    </head>
+    <body>
+
+        <nav class="navbar relative container mx-auto p-4">
+            <div class="flex items-center justify-between">
+                <div class="pt-2 flex space-x-6">
+                    <p class="bebas-neue md:text-6xl text-4xl text-red-500">
+                        DECIDE AÍ
+                    </p>
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="../FilmesAssistidos/watched_films.html" class="hover:text-red-700"> Filmes Assistidos </a>
+                    <a href="#" class="text-red-500 hover:text-red-700"> Sugestão </a>
+                    <a href="#" class="hover:text-red-700"><i class="fa-solid fa-right-from-bracket"></i></a>
+                </div>
+    
+                <!-- Mobile menu -->
+                <button id="menu-btn" class="block hamburger md:hidden focus:outline-none" onclick="openMenu()">
+                    <span class="hamburger-top"></span>
+                    <span class="hamburger-middle"></span>
+                    <span class="hamburger-bottom"></span>
+                </button>
+            </div>
+            <div id="optionsMenu">
+                <div id="menu" class="absolute flex-col items-center self-end hidden py-8 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md">
+                    <a href="../FilmesAssistidos/watched_films.html" class="hover:text-red-700"> Filmes Assistidos </a>
+                    <a href="#" class="text-red-500 hover:text-red-700"> Sugestão </a>
+                    <a href="#" class="hover:text-red-700">Sair</i></a>
+                </div>
+            </div>
+        </nav>
+        <hr>
+
+        <div id="text-block">
+            <H1 id="title" >SHREK 2</H1>
+
+            <p id="synopsis">
+                Shrek e Fiona acabaram de voltar da lua de mel e 
+                vivem felizes em sua casa no pântano. 
+                O casal recebe um convite dos pais da princesa, que querem 
+                conhecer o novo genro, para um jantar no castelo. 
+                Eles ficaram sabendo que Fiona havia se casado com o seu 
+                verdadeiro amor, mas o que eles ainda não sabem é que este 
+                amor é um ogro mal-educado de mais de 300 quilos, que conta 
+                com um burro falante como melhor amigo.
+            </p>
+
+
+            <section id="text-details">
+                <p>
+                    Data de lançamento: 19 de maio de 2014
+                </p>
+                
+                <p>
+                    Elenco: Mike Myers, Eddie Murphy, Cameron 
+                    Diaz, Antonio Banderas, Julie Andrews, 
+                    John Cleese, Rupert Everett, Jennifer Saunders
+                </p>
+
+                <p>
+                    Gêneros: Aventura, Animação, Comédia, Fantasia 
+                </p>
+            </section>
+
+            
+        </div>
+
+        <div style="display: inline-block; float: right;">
+            <img id="filmImage" src="/src/assets/shrek2.webp" alt="">
+        </div>
+        
+        
+    </body>
 </html>
