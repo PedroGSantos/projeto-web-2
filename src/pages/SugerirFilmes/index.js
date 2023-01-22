@@ -4,6 +4,13 @@ function openMenu() {
 	else menu.style.display = "none";
 }
 
+function openMovie() {
+	let form = document.getElementById("content");
+	let movie = document.getElementById("content2");
+	movie.style.display = "flex";
+	form.style.display = "none";
+}
+
 const btn = document.getElementById("menu-btn");
 const nav = document.getElementById("menu");
 const menu = document.getElementById("optionsMenu");
