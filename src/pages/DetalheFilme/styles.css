@@ -1,0 +1,33 @@
+#title {
+    font-size: 64px;
+    margin-top: 6%;
+    margin-left: 9%;
+}
+
+#synopsis {
+    margin-left: 9%;
+    font-size: 24px;
+}
+
+#text-details {
+    margin-left: 9%;
+    margin-top: 2%;
+    font-size: 32px;
+}
+
+p + p {
+    margin-top: 4%;
+}
+
+#filmImage {
+    border-radius: 15px;
+    width: 65%;
+    margin-top: 10%;
+    margin-right: 10px;
+}
+
+#text-block{
+    display: inline-block; 
+    float: left; 
+    width: 50%;
+}
