@@ -22,12 +22,88 @@ p + p {
 #filmImage {
     border-radius: 15px;
     width: 65%;
+    display: inline-block;
+    float: inline-end;
     margin-top: 10%;
-    margin-right: 10px;
+    margin-right: 30%;
 }
 
 #text-block{
     display: inline-block; 
     float: left; 
     width: 50%;
+}
+
+@media only screen and (max-width: 1600px) {
+    #filmImage {
+        border-radius: 15px;
+        width: 70%;
+        margin-top: 10%;
+        margin-right: 15%;
+        margin-left: 20%;
+    }
+
+    #text-block{
+        width: 45%;
+        margin-right: -12%;
+        
+    }
+}
+
+@media only screen and (max-width: 1141px) {
+    #filmImage {
+        border-radius: 15px;
+        width: 60%;
+        margin: auto;
+        margin-top: 10%;
+        margin-left: 8%;
+        margin-bottom: 5%;
+        margin-right: 20%;
+    }
+
+    #text-block{
+        width: 100%;
+        margin-left: -3%;
+        
+    }
+}
+
+@media only screen and (max-width: 780px) {
+    #filmImage {
+        border-radius: 15px;
+        width: 60%;
+        margin: auto;
+        margin-top: 10%;
+        margin-left: 20%;
+        margin-bottom: 5%;
+    }
+
+    #text-block{
+        width: 100%;
+        margin-left: -3%;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    #filmImage {
+        border-radius: 15px;
+        width: 60%;
+        margin: auto;
+        margin-top: 10%;
+        margin-left: 20%;
+        margin-bottom: 5%;
+    }
+
+    #text-block{
+        width: 100%;
+        margin-left: -3%;
+    }
+
+    #title {
+        font-size: 48px;
+    }
+
+    #text-details {
+        font-size: 28px;
+    }
 }
