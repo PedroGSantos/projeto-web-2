@@ -9,7 +9,6 @@
         <script src="../../global/script/index.js"></script>
     </head>
     <body>
-
         <nav class="navbar relative container mx-auto p-4">
             <div class="flex items-center justify-between">
                 <div class="pt-2 flex space-x-6">
@@ -20,7 +19,7 @@
                 <div class="hidden md:flex space-x-8">
                     <a href="../FilmesAssistidos/watched_films.html" class="hover:text-red-700"> Filmes Assistidos </a>
                     <a href="#" class="text-red-500 hover:text-red-700"> Sugestão </a>
-                    <a href="#" class="hover:text-red-700"><i class="fa-solid fa-right-from-bracket"></i></a>
+                    <a href="../home/home.html" class="hover:text-red-700"><i class="fa-solid fa-right-from-bracket"></i></a>
                 </div>
     
                 <!-- Mobile menu -->
@@ -34,19 +33,43 @@
                 <div id="menu" class="absolute flex-col items-center self-end hidden py-8 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md">
                     <a href="../FilmesAssistidos/watched_films.html" class="hover:text-red-700"> Filmes Assistidos </a>
                     <a href="#" class="text-red-500 hover:text-red-700"> Sugestão </a>
-                    <a href="#" class="hover:text-red-700">Sair</i></a>
+                    <a href="../home/home.html" class="hover:text-red-700">Sair</i></a>
                 </div>
             </div>
         </nav>
         <hr>
-        <content id="content">
-            <p id="title">ESSE É O FILME IDEAL PARA VOCÊ</p>
-            <div id="buttonCheck">
-                <p id="textCheck">MARCAR COMO ASSISTIDO</p>
-                <img src="../../assets/circle-check-solid 1.svg" id="check"/>
-            </div>
+        <div class="background-image-films">
+            <content id="content">
+                    <p class="bebas-neue text-2xl pq:text-3xl sm:text-4xl mt-7 sm:mt-16 text-center">chegou o momento! nOSSo site <br> irá decidir qual filme você verá <br>hoje</p>
+                    <div class="sm:w-1/4 w-2/4 flex flex-col">
+                        <label class="mt-9 pq:text-2xl text-xl">ANO</label>
+                        <input type="number" class="inputMovie"/>
+                    </div>
+                    <div class="sm:w-1/4 w-2/4 flex flex-col">
+                        <label class="mt-9 pq:text-2xl text-xl">GÊNERO</label>
+                        <input type="text" class="inputMovie"/>
+                    </div>
+                    <div class="sm:w-1/4 w-2/4 flex flex-col">
+                        <label class="mt-9 pq:text-2xl text-xl">PAÍS</label>
+                        <input type="text" class="inputMovie"/>
+                    </div>
+                    <div class="sm:w-1/4 w-2/4 flex flex-col">
+                        <label class="mt-9 pq:text-2xl text-xl">FAIXA ETÁRIA</label>
+                        <input type="number" class="inputMovie"/>
+                    </div>
+                    <button id="buttonMovie" class="pq:text-4xl text-lg sm:w-1/3 w-3/4 " onclick="openMovie()">DECIDIR</button>
+            </content>
+        </div>
+        <content id="content2">
+            <p class="bebas-neue text-2xl pq:text-3xl sm:text-4xl lg:mt-20 mt-7">ESSE É O FILME IDEAL PARA VOCÊ</p>
+            <button id="buttonCheck">
+                <p class="bebas-neue  sm:text-2xl text-positive text-start" id="textCheck">MARCAR COMO ASSISTIDO</p>
+                <i class="fa-sharp fa-solid fa-circle-check color-red text-xl" style="color: #26C90B;" id="iconCheck"></i>
+            </button>
             <div id="movieContainer">
-                <img src="../../assets/filme.png" id="imgFilme" width="100%"/>
+                <div id="containerImage">
+                    <img src="../../assets/filme.jpeg" id="imgFilme" />
+                </div>
                 <div id="infoContainer">
                     <div class="box">
                         <p class="textBox">2004</p>
@@ -56,8 +79,8 @@
                     </div>
                 </div>
                 <div id="mainText">
-                    <p id="titleMovie">SHREK 2</p>
-                    <p id="sinopse">
+                    <p id="titleMovie" class="pq:text-6xl text-xl">SHREK 2</p>
+                    <p id="sinopse" class="md:text-base text-xs">
                         Shrek e Fiona acabaram de voltar da lua de mel e 
                         vivem felizes em sua casa no pântano. 
                         O casal recebe um convite dos pais da princesa, que querem 
