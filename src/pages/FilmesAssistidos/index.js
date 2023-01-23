@@ -69,8 +69,10 @@ function displayWatchedMovies(email) {
 						divWatchedMovies.innerHTML += `
                     <div class="md:w-1/4 md:p-4 sm:w-1/2 sm:p-2 w-full">
                         <div class="image-wrapper">
-                            <img class="w-full" src="${posterLink}">
-                            <div class="gradient-overlay"></div>
+							<a href="../DetalheFilme/index.html">
+								<img class="w-full" src="${posterLink}">
+								<div class="gradient-overlay"></div>
+							</a>
                             <button class="image-button"><i class="fa-solid fa-lg fa-circle-xmark"></i></button>
                         </div>
                         <p class="text-center text-lg"> ${movie.title} </p>
