@@ -6,6 +6,12 @@ body {
     color: white;
 }
 
+.background-image-films{
+    background-image: url('../../assets/films_background.png');
+    background-position: right bottom;
+    background-repeat: no-repeat;
+}
+
 #optionsMenu {
     display: none;
 }
