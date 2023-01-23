@@ -77,6 +77,10 @@
 }
 
 @media only screen and (max-width: 800px) {
+    #logo {
+        font-size: 6em;
+    }
+
     #loginArea {
         width: 60%;
     }
@@ -110,6 +114,8 @@
 }
 
 @media only screen and (max-width: 1300px) and (min-width: 800px){
+    
+
     #loginArea {
         width: 60%;
     }
@@ -139,5 +145,12 @@
         align-content: center;
         padding-top: 1%;
         margin-bottom: 10px;
+    }
+}
+
+
+@media only screen and (max-width: 300px) {
+    #logo {
+        font-size: 4em;
     }
 }

@@ -21,8 +21,8 @@ body {
 }
 
 .image-wrapper {
-    position: relative; /* This is necessary for the absolute positioning of the gradient layer */
-    display: inline-block; /* This will make the wrapper div the same size as the image */
+    position: relative;
+    display: inline-block;
 }
 
 .gradient-overlay {
@@ -36,12 +36,12 @@ body {
 
 .image-button {
     position: absolute;
-    top: 15px; /* You can adjust the position of the button using the bottom, left, right, top properties */
+    top: 15px;
     right: 15px;
     padding: 10px 20px;
-    color: red; /* You can adjust the color of the text */
-    border: none; /* You can add a border to the button */
-    font-size: 18px; /* You can adjust the size of the text */
+    color: red;
+    border: none;
+    font-size: 18px;
 }
 
 #menu {
